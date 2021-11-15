@@ -6,7 +6,7 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
-        <div class="navbar fixed-top">
+        <div class="navbar">
             <nav class="nav">
                 <ul class="nav justify-content-center nav-tabs">
                     <!--Çàãîëîâîê -->
@@ -15,7 +15,7 @@
                     </li>
                     <!--Ïóíêòû ìåíþ -->
                     <li class="nav-item dropdown">
-                    <!--Ïåðâûé ïóíêò ìåíþ -->
+                        <!--Ïåðâûé ïóíêò ìåíþ -->
                         <a class="nav-link btn btn-secondary dropdown-toggle" aria-current="page" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                             Эксперимент 1
                         </a>
@@ -84,7 +84,7 @@
             <!--Ñîäåðæèìîå ïîä çàãîëîâêàìè-->
             <article class="row">
                 <p class="col-4 border border-primary">
-                    В книге «матрица» создайте новый лист и назовите его «Таблица сопряженности 2». 
+                    В книге «матрица» создайте новый лист и назовите его «Таблица сопряженности 2».
                     На листе  «Таблица  сопряженности  2»  постройте  корреляционную  таблицу  распределения
                     студентов по двум признакам: будущая профессия студента и время, затрачиваемое
                     им на учебу. На основе критерия хи-квадрат сделайте вывод о наличии связи между эти
@@ -96,7 +96,7 @@
                     листе  «Таблица  сопряженности  3»  постройте  корреляционную  таблицу  распределения
                     студентов по двум признакам: время, затрачиваемое студентами на учебу и степень их
                     удовлетворенности учебой. На основе критерия хи-квадрат сделайте вывод о наличии
-                    связи между этими признаками. Используя коэффициент взаимной сопряженности Пирсона, 
+                    связи между этими признаками. Используя коэффициент взаимной сопряженности Пирсона,
                     установите силу связи между этими признаками..
                 </p>
                 <p class="col-4 border border-success">
@@ -104,10 +104,10 @@
                     листе  «Таблица  сопряженности  3»  постройте  корреляционную  таблицу  распределения
                     студентов по двум признакам: время, затрачиваемое студентами на учебу и степень их
                     удовлетворенности учебой. На основе критерия хи-квадрат сделайте вывод о наличии
-                    связи между этими признаками. Используя коэффициент взаимной сопряженности Пирсона, 
+                    связи между этими признаками. Используя коэффициент взаимной сопряженности Пирсона,
                     установите силу связи между этими признаками.
                 </p>
-                <h2 class="col-6"> Примеры полученных графиков </h2>
+                <h2 align="center"> Примеры полученных графиков </h2>
             </article>
         </div>
         <!--Ñëàéäåð-->
@@ -131,7 +131,18 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Следующий</span>
             </button>
-        </div> 
+        </div>
+        <form class="container">
+            <div class="mb-3 col-4">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3 col-4">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
         <script src="http://code.jquery.com/jquery-latest.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </body>
